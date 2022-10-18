@@ -1,0 +1,61 @@
+.none {
+	DISPLAY: none
+}
+.css {
+	font-size: 12px;
+	line-height: 130%;
+}
+.css1 {
+	font-size: 12px;
+	line-height: 120%;
+}
+.css2 {
+	font-size: 14px;
+	line-height: 130%;
+}
+.css3 {
+	font-size: 30px;
+	line-height: 200%;
+}
+.Tboder01 {
+	border: 1px solid #e54e5b;
+}
+.input01 {
+	background-color: #FFFFFF;
+	border: 1px solid #CDCDCD;
+	height: 20px;
+}
+.tdline23 {
+	font-size: 14px;BORDER-TOP: #ebe6d3 1px solid;
+}
+.tabline {
+	font-size: 14px;BORDER-RIGHT: #d1d6c4 1px solid; BORDER-TOP: #d1d6c4 1px solid; BORDER-LEFT: #d1d6c4 1px solid; BORDER-BOTTOM: #d1d6c4 1px solid; BACKGROUND-COLOR: #f7f9f3
+}
+.tdline7 {
+	BORDER-RIGHT: #d1d6c4 1px solid; BORDER-TOP: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; BORDER-BOTTOM: #d1d6c4 1px solid; BACKGROUND-COLOR: #fcfdfb
+}
+.tdline27 {
+	BORDER-TOP: #ffffff 1px solid; BORDER-BOTTOM: #e1ccaf 1px solid; BACKGROUND-COLOR: #f2ebe3
+}
+.b_space3 {
+	TEXT-INDENT: 0.5em
+}
+.tabline2 {
+	BORDER-TOP: #ffffff 1px solid; BACKGROUND-COLOR: #ebf7f9
+}
+.sbutton {
+	BORDER-RIGHT: #7b9ebd 1px solid; 
+   PADDING-RIGHT: 2px; 
+   padding-top:2px;
+   BORDER-TOP: #7b9ebd 1px solid; 
+   PADDING-LEFT: 2px; 
+   FONT-SIZE: 10pt; 
+   FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#cecfde); 
+   BORDER-LEFT: #7b9ebd 1px solid; 
+   CURSOR: hand; 
+   BORDER-BOTTOM: #7b9ebd 1px solid
+}
+.rbutton {
+	BORDER-RIGHT: 1px solid #CCCCCC; BORDER-TOP: 1px solid #CCCCCC; BORDER-LEFT: 1px solid #CCCCCC; COLOR: #333333; BORDER-BOTTOM: 1px solid #CCCCCC; BACKGROUND-COLOR: #FFFFFF
+}
+.READNEWSTITLE	{font-size: 18px; line-height: 150%; color: #000000; filter:DropShadow(Color=#cccccc, OffX=1, OffY=1, Positive=1)}

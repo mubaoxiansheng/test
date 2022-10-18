@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<div id="container">
+            <div id="content"><a href="https://tv.cctv.com/lm/zhs/">
+                <img src="images/duilian.jpg"width="200px"height="200px">
+            </a>
+            </div>
+            <div id="ad1">
+                <a href="javascript:closeWindos('ad1')">
+                    <div id="cs1">关闭广告</div>
+                </a>
+            </div>
+            
+            <div id="ad2">
+                <a href="javascript:closeWindos('ad2')">
+                    <div id="cs1">关闭广告</div>
+                </a>
+            </div>
+            <div id="ad3">
+                <a href="javascript:closeWindos('ad3')">
+                    <div id="cs2">关闭广告</div>
+                </a>
+            </div>
+        </div>
+	</body>
+	<style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            #content{
+                width: 600px;
+                height: 750px;
+                margin: 0 auto;
+                background:#cff;
+                padding: 50px;
+            }
+            #ad1,#ad2{
+                position:fixed;
+                top:50px;
+                width: 100px;
+                height: 200px;
+                background: #9cf;
+            }
+            #ad3{
+                position:fixed;
+                bottom:50px;
+                width: 100px;
+                height: 200px;
+                background: #9cf;
+            }
+            #ad1{
+                left: 0;
+            }
+            #ad2{
+                right: 0;
+            }
+            #ad3{
+        
+                right: 0;
+            }
+            #cs1{
+                margin-top: 140px;
+                height: 25px;
+                line-height: 25px;
+                text-align: center;
+                font-size: 14px;
+                background-color: #999;
+            }
+            #cs2{
+                margin-bottom: 140px;
+                height: 25px;
+                line-height: 25px;
+                text-align: center;
+                font-size: 14px;
+                background-color: #999;
+            }
+            p{
+                text-align: center;
+            }
+        </style>
+<script>
+            function closeWindos(idname){
+                var window = document.getElementById(idname)
+                window.style.display = "none"
+            }
+        </script>
+</html>
