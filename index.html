@@ -9,22 +9,31 @@
         }
         </style>
         </head>
-        <bgsound src=bg.mp3 loop="-1">
+        <body>
         <div align="center">
             <img src="images/ZZGC.jpg">
-          <table width="500" border="0">
-            <tr class="css2"> 
-              <td width="168" class="css"><div align="center"><strong><font color="#FFFFFF">用户名: 
-                  <input name="textfield" type="text" size="10">
-                  </font></strong></div></td>
-              <td width="156"><div align="center"><strong><font color="#FFFFFF">密码: 
-                  <input name="textfield2" type="text" size="10">
-                  </font></strong></div></td>
-              <td width="162"> <div align="center"> 
-                  <input name="button3" type="button"  style="font-family: 新细明体, 宋体, Arial; CURSOR: hand; font-size: 9pt; height:20px;background-color:#D4D0C8;" onClick=" window.location='main.html'" onMouseOver ="this.style.backgroundColor='#FFC864'" onMouseOut ="this.style.backgroundColor='#D4D0C8'" value="点击进入">
-                </div></td>
-            </tr>
-          </table>
+              <div class="text">
+                  <input type="text" placeholder="Username" id="name" style="width:auto;height: auto; margin-top: 10px;">
+              </div>
+              <div class="text">
+                  <input type="password" placeholder="Password" id="pass" style="width:auto;height: auto;margin-top: 10px;">
+              </div>
+              <button onclick="login()" style="margin-top: 35px; width: 100px;;height: 30px;">登录</button>
         </div>
+        <script type="text/javascript">
+          function login() {
+              let username = document.getElementById("name").value;
+              let password = document.getElementById("pass").value;
+              if (username == "zzh" && password == "123") {
+                  window.location.href = "main.html";
+                  return false;
+              }
+              else {
+                  alert("账号或密码错误");
+                  window.location = "index.html";
+                  return false;
+              }
+          }
+      </script>
         </body>
 </html>
